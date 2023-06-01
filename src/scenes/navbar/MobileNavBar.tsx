@@ -2,11 +2,7 @@ import { SelectedPageType } from "@/shared/types";
 import MenuItems from "./MenuItems";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
-function MobileNavBar({
-  handleClick,
-  selectedPage,
-  setSelectedPage,
-}: SelectedPageType) {
+function MobileNavBar({ handleClick }: SelectedPageType) {
   return (
     <div className="fixed right-0 bottom-0 z-40 w-[250px] h-full bg-gray-50 drop-shadow-lg">
       {/* CLOSE ICONE */}
@@ -17,10 +13,7 @@ function MobileNavBar({
       </div>
       {/* Menu Items */}
       <div className={`ml-[33%] flex flex-col gap-10 text-md`}>
-        <MenuItems
-          selectedPage={selectedPage}
-          setSelectedPage={setSelectedPage}
-        />
+        <MenuItems />
       </div>
     </div>
   );
