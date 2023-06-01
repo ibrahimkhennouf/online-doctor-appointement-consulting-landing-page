@@ -1,4 +1,4 @@
-import BubblesIcon from "@/assets/icons/BubblesIcon.png";
+import BubblesIcon from "@/assets/Icons/BubblesIcon.png";
 
 type Props = {
   title: string;

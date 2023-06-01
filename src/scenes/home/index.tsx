@@ -1,8 +1,8 @@
 import Button from "@/shared/Button";
-import FirstIconInList from "@/assets/icons/FirstIconInList.png";
-import SecondIconInList from "@/assets/icons/SecondIconInList.png";
-import ThirdIconInList from "@/assets/icons/ThirdIconInList.png";
-import FourthIconInList from "@/assets/icons/LastIconInList.png";
+import FirstIconInList from "@/assets/Icons/FirstIconInList.png";
+import SecondIconInList from "@/assets/Icons/SecondIconInList.png";
+import ThirdIconInList from "@/assets/Icons/ThirdIconInList.png";
+import FourthIconInList from "@/assets/Icons/LastIconInList.png";
 import { IBlueBoxType } from "@/shared/types";
 
 const staticItems: Array<IBlueBoxType> = [

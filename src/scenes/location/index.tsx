@@ -1,4 +1,4 @@
-import ThirdSectionImage from "@/assets/images/ThirdSectionImage.png";
+import ThirdSectionImage from "@/assets/Images/ThirdSectionImage.png";
 import Button from "@/shared/Button";
 
 const Location = () => {

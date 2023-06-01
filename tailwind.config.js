@@ -28,10 +28,10 @@ export default {
       backgroundImage: (theme) => ({
         "gradient-blue":
           "linear-gradient(145.08deg, #1678F2 3.73%, #65A8FB 132.69%)",
-        mainPhoto: "url(./assets/images/MainPhoto.png)",
+        mainPhoto: "url(./assets/Images/MainPhoto.png)",
         "white-gradien":
           "linear-gradient(92.29deg, #FFFFFF 31.91%, rgba(255, 255, 255, 0.770688) 65.44%, rgba(255, 255, 255, 0) 98.17%);",
-        testimonialsBck: "url(./assets/images/TestimonialImage.png)",
+        testimonialsBck: "url(./assets/Images/TestimonialImage.png)",
       }),
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

@@ -1,4 +1,4 @@
-import FourthSectionImage from "@/assets/images/FourthSectionImage.png";
+import FourthSectionImage from "@/assets/Images/FourthSectionImage.png";
 import Button from "@/shared/Button";
 
 function NearstHospital() {
