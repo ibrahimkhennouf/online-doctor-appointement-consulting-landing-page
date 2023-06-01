@@ -16,7 +16,9 @@ const NavBar = () => {
 
   return (
     <nav className="mb-10">
-      <div className={`${flexBetween} fixed top-0 z-30 w-full py-3 bg-white`}>
+      <div
+        className={`${flexBetween} fixed top-0 z-30 w-full py-3 px-8 bg-white`}
+      >
         {/* IMAGE LOGO */}
         <img src={Logo} alt="Main-logo" />
         {/* DISPLAY DESKTOP  */}
